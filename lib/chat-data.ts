@@ -26,7 +26,7 @@ export const TIERS: Tier[] = [
     label: 'Projet de vie',
     icon: '✨',
     unlocks: 'project',
-    notification: 'Niveau 2 atteint : Le projet de vie d'Elena est débloqué !',
+    notification: "Niveau 2 atteint : Le projet de vie d'Elena est débloqué !",
   },
   {
     threshold: 20,
@@ -40,7 +40,7 @@ export const TIERS: Tier[] = [
     label: 'Photo révélée',
     icon: '📸',
     unlocks: 'photo',
-    notification: 'Connexion Profonde Atteinte : La photo de profil d'Elena est révélée !',
+    notification: "Connexion Profonde Atteinte : La photo de profil d'Elena est révélée !",
   },
 ]
 
@@ -48,9 +48,9 @@ export const MAX_MESSAGES = 50
 
 export const AI_SUGGESTIONS = [
   'Demande-lui quel plat italien elle adore cuisiner quand elle veut se faire plaisir.',
-  'Elle aime la photographie — demande-lui le dernier lieu qui l'a marquée derrière l'objectif.',
+  "Elle aime la photographie — demande-lui le dernier lieu qui l'a marquée derrière l'objectif.",
   'La "passeggiata" est une belle habitude italienne : demande-lui à quoi ressemble sa fin de journée idéale.',
-  'Elle fait de la céramique — demande-lui ce qu'elle ressent quand une pièce sort du four.',
+  "Elle fait de la céramique — demande-lui ce qu'elle ressent quand une pièce sort du four.",
 ]
 
 export const TARGET_LANGUAGES = ['Français', 'Anglais', 'Italien', 'Espagnol', 'Allemand']

@@ -499,11 +499,11 @@ export function ChatModule() {
 
 function replyFor(text: string): string {
   const pool = [
-    'Haha j'adore ça 😄 dis-m'en plus !',
-    'C'est intéressant, je n'avais jamais vu les choses comme ça.',
-    'Complètement d'accord avec toi 🙂',
+    "Haha j'adore ça 😄 dis-m'en plus !",
+    "C'est intéressant, je n'avais jamais vu les choses comme ça.",
+    "Complètement d'accord avec toi 🙂",
     'Oh vraiment ? Raconte !',
-    'Tu me donnes envie d'essayer 😌',
+    "Tu me donnes envie d'essayer 😌",
   ]
   return pool[text.length % pool.length]
 }
